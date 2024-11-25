@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTES</title>
+    <style>
+        div#area {
+            font: normal 20 pt Arial;
+            background: rgb(86, 241, 86);
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        body {
+            font: normal 10pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        click aqui
+    </div>
+    <h1>Você, Hirata e todos os outros são apenas ferramentas para isso!</h1>
+    <script>
+       var s = window.document.getElementById('area')
+       s.addEventListener('click', clicar)
+
+       function clicar() {
+        s.innerText = 'você é gay'
+       }
+
+    </script>
+</body>
+</html>
